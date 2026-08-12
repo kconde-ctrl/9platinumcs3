@@ -1,5 +1,6 @@
 # 9platinumcs3
 **Name:** Kyle Christopher A. Conde
+
 **Section:** 9 - Platinum
 **Age:** 14
 
