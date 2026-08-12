@@ -2,6 +2,7 @@
 **Name:** Kyle Christopher A. Conde
 
 **Section:** 9 - Platinum
+
 **Age:** 14
 
 ## Quarter 1 Activities
