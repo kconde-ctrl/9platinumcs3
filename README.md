@@ -7,4 +7,4 @@
 
 * [Computational Thinking Exercise](Q1/ctskillsPlatinumConde.md)
 * [Chinese Zodiac Coding Exercise](Q1/zodiacPlatinumConde.md)
-* [Chinese Zodiac Python Script](Q1/zodiacPlatinumConde.py)
+
