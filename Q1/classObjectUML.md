@@ -30,7 +30,7 @@ Represents a physical computer workstation device managed within a computer labo
 I chose 'Computer Device' because management of hardware assets in a school computer laboratory is a fundamental rea world application. Tracking individual machines help maintain order, monitor maintenance needs, and manage user allocations during classes.
 
 ### Which property is the most important? Why?
-The 'deviceID' property is the most important because it acts 
+The 'deviceID' property is the most important because it acts as the primary key that uniquely identifies each unit in the tab because without a unique ID it would be impossible to track
 
 ### Which method is the most useful? Why?
-
+The 'assignUser(userName: string)' method is the most useful because it allows dynamically taking in a parameter to associate individual students with specific equipment
