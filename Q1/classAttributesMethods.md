@@ -34,8 +34,16 @@ No major structural changes were made to the attributes or methods. The visibili
 
 ### Why did you make your chosen attribute private?
 
+The assignedUser attribute was made private to safeguard user privacy and enforce data validation and allowing external code to directly modify who is assigned to a device could lead to unauthorized reassignments
+
 ### Which method changes the state of your object?
+
+The assignUser(userName) method changes the assignedUser attribute, and reportIssue() changes the isFunctional attribute
 
 ### How did your two objects demonstrate that instances are independent?
 
+When assignUser("Charlie") and reportIssue() were called strictly on dev1, its assignedUser updated to "Charlie" and its status became non-functional and dev2 maintained its original state (assignedUser = "Bob", isFunctional = True)
+
 ### What is the difference between your class diagram and your object diagram?
+
+The class diagram serves as a blueprint showing general data types and available methods the object diagram represents specific instances in memory at a specific snapshot in time, displaying actual runtime values rather than variable declarations
