@@ -4,7 +4,7 @@
 Link to my previous activity: [classObjectUML.md](classObjectUML.md)
 
 ## Design Revision
-No major structural changes were made to the attributes or methods. The visibility modifier for `assignedUser` was set to private (`-`) to ensure data encapsulation, while other properties remain public (`+`).
+No major structural changes were made to the attributes or methods. The visibility modifier for `assignedUser` was set to private to ensure data encapsulation, while other properties remain public
 
 ## Visibility Decisions
 
@@ -17,21 +17,25 @@ No major structural changes were made to the attributes or methods. The visibili
 
 ## Updated UML Class Diagram
 
-![Updated Class Diagram](images/UpdatedclassDiagram.png)
+![Class Diagram](images/classDiagramSG5.png)
 
 ## Python Implementation
 [View Python Source](classImplementation.py)
 
-## Test Run Output
-```text
---- BEFORE ---
-Device 1 (DEV-101): User = Alice, Functional = True
-Device 2 (DEV-102): User = Bob, Functional = True
+## Test Run
 
---- Performing action on Object 1 ---
-Device DEV-101 successfully assigned to Charlie.
-Issue reported: Device DEV-101 status set to non-functional.
+![Test Run](images/classTestRun.png)
 
---- AFTER ---
-Device 1 (DEV-101): User = Charlie, Functional = False
-Device 2 (DEV-102): User = Bob, Functional = True
+## Object Diagram
+
+![Object Diagram](images/objectDiagram.png)
+
+## Analysis 
+
+### Why did you make your chosen attribute private?
+
+### Which method changes the state of your object?
+
+### How did your two objects demonstrate that instances are independent?
+
+### What is the difference between your class diagram and your object diagram?
