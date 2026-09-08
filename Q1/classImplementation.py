@@ -21,7 +21,7 @@ class ComputerDevice:
             print(f"Cannot assign user: Device {self.device_id} is not functional.")
 
     # Method 3: Modifies state safely
-    def report_issue(() -> None:
+    def report_issue(self) -> None:
         self.is_functional = False
         print(f"Issue reported: Device {self.device_id} status set to non-functional.")
 
@@ -36,8 +36,8 @@ class ComputerDevice:
 # Step 6 & 7: Test Script (Instantiate 2 Objects & Modify Only Object 1)
 if __name__ == "__main__":
     # Instantiate two independent objects
-    dev1 = ComputerDevice("DEV-101", True, 16, "Alice")
-    dev2 = ComputerDevice("DEV-102", True, 8, "Bob")
+    dev1 = ComputerDevice("DEV-101", True, 16, "Frexus")
+    dev2 = ComputerDevice("DEV-102", True, 8, "Armel")
 
     print("--- BEFORE ---")
     print(f"Device 1 ({dev1.device_id}): User = {dev1.get_assigned_user()}, Functional = {dev1.is_functional}")
