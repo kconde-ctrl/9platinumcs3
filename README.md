@@ -10,4 +10,4 @@
 * [Computational Thinking Exercise](Q1/ctskillsPlatinumConde.md)
 * [Chinese Zodiac Coding Exercise](Q1/zodiacPlatinumConde.md)
 * [classObjectUML Exercise](Q1/classObjectUML.md)
-
+* [Class Attributes and Methods Exercise](Q1/classAttributesMethods.md)
