@@ -17,4 +17,21 @@ No major structural changes were made to the attributes or methods. The visibili
 
 ## Updated UML Class Diagram
 
+![Updated Class Diagram](images/UpdatedclassDiagram.png)
 
+## Python Implementation
+[View Python Source](classImplementation.py)
+
+## Test Run Output
+```text
+--- BEFORE ---
+Device 1 (DEV-101): User = Alice, Functional = True
+Device 2 (DEV-102): User = Bob, Functional = True
+
+--- Performing action on Object 1 ---
+Device DEV-101 successfully assigned to Charlie.
+Issue reported: Device DEV-101 status set to non-functional.
+
+--- AFTER ---
+Device 1 (DEV-101): User = Charlie, Functional = False
+Device 2 (DEV-102): User = Bob, Functional = True
