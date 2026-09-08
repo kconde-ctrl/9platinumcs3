@@ -42,7 +42,7 @@ The assignUser(userName) method changes the assignedUser attribute, and reportIs
 
 ### How did your two objects demonstrate that instances are independent?
 
-When assignUser("Charlie") and reportIssue() were called strictly on dev1, its assignedUser updated to "Charlie" and its status became non-functional and dev2 maintained its original state (assignedUser = "Bob", isFunctional = True)
+When assignUser("Charlie") and reportIssue() were called strictly on dev1, its assignedUser updated to "Charlie" and its status became non-functional and dev2 maintained its original state (assignedUser = "Armel", isFunctional = True)
 
 ### What is the difference between your class diagram and your object diagram?
 
