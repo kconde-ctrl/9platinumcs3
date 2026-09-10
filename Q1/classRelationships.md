@@ -9,21 +9,25 @@
 ## Existing Class
 
 Class:
+
 Description:
 
 ## New Related Class
 
 Class:
+
 Description:
 
 ## Association
 
 Relationship:
+
 Explanation:
 
 ## Multiplicity
 
 Multiplicity:
+
 Explanation:
 
 ## UML Class Relationship Diagram
