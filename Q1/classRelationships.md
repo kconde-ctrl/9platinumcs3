@@ -8,27 +8,28 @@
 
 ## Existing Class
 
-Class:
+Class: Computer Device
 
-Description:
+Description: Represents a physical computer workstation device managed within a computer laboratory system. It tracks the hardware specifications, operational status and assignment details of a desktop or laptop unit
+Properties
 
 ## New Related Class
 
-Class:
+Class: ITDepartment
 
-Description:
+Description: Represents an IT department or laboratory unit that manages and maintains multiple computing hardware devices
 
 ## Association
 
-Relationship:
+Relationship: HAS-A manages
 
-Explanation:
+Explanation: ITDepartment manages ComputerDevice
 
 ## Multiplicity
 
-Multiplicity:
+Multiplicity: 1 : 0
 
-Explanation:
+Explanation: One ITDepartment manages zero or many ComputerDvices
 
 ## UML Class Relationship Diagram
 
