@@ -11,3 +11,4 @@
 * [Chinese Zodiac Coding Exercise](Q1/zodiacPlatinumConde.md)
 * [classObjectUML Exercise](Q1/classObjectUML.md)
 * [Class Attributes and Methods Exercise](Q1/classAttributesMethods.md)
+* [ClassRelationships Association and Multiplicity Exercise](Q1/classRelationships.md)
