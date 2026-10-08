@@ -14,3 +14,5 @@
 * [ClassRelationships Association and Multiplicity Exercise](Q1/classRelationships.md)
 
 ## Quarter 2 Activities
+
+* [SG8 Encapsulation Exercise](Q2/SG_8_Encapsulation.py)
