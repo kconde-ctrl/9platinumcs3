@@ -1,4 +1,3 @@
-# Parent class
 class Animal:
 
     def __init__(self, name: str):
@@ -38,10 +37,8 @@ lion = Lion("Simba")
 elephant = Elephant("Dumbo")
 monkey = Monkey("George")
 
-# Put objects in a list
 animals = [lion, elephant, monkey]
 
-# Call methods using a for loop
 for animal in animals:
     animal.make_sound()
     animal.eat()
