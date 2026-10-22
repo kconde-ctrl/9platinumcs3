@@ -16,3 +16,5 @@
 ## Quarter 2 Activities
 
 * [SG8 Encapsulation Exercise](Q2/SG_8_Encapsulation.py)
+
+* [Zoo Management System Exercise](Q2/Zoo_Management_System.py)
